@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlService.API", "TinyUrlService.API\TinyUrlService.API.csproj", "{A64BC79A-A65F-47FE-BAC0-A309BEDCCCDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlService.Domain", "TinyUrlService.Domain\TinyUrlService.Domain.csproj", "{9509F81E-FED4-4A80-843D-EA486481AD45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tinyurl-ui", "tinyurl-ui", "{8E568F0E-4DFD-40D6-9DF5-401539280658}"
+	ProjectSection(SolutionItems) = preProject
+		tinyurl-ui\package.json = tinyurl-ui\package.json
+		tinyurl-ui\src\Express.js = tinyurl-ui\src\Express.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EDFCBED9-CC24-4421-AFDC-11457744AC25}"
+	ProjectSection(SolutionItems) = preProject
+		tinyurl-ui\src\setupTests.js = tinyurl-ui\src\setupTests.js
+		tinyurl-ui\src\reportWebVitals.js = tinyurl-ui\src\reportWebVitals.js
+		tinyurl-ui\src\logo.svg = tinyurl-ui\src\logo.svg
+		tinyurl-ui\src\index.js = tinyurl-ui\src\index.js
+		tinyurl-ui\src\index.css = tinyurl-ui\src\index.css
+		tinyurl-ui\src\App.test.js = tinyurl-ui\src\App.test.js
+		tinyurl-ui\src\App.js = tinyurl-ui\src\App.js
+		tinyurl-ui\src\App.css = tinyurl-ui\src\App.css
+		tinyurl-ui\src\Express.js = tinyurl-ui\src\Express.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{870296D9-4BAD-4809-8A46-DA33976C381C}"
+	ProjectSection(SolutionItems) = preProject
+		tinyurl-ui\src\services\UrlService.js = tinyurl-ui\src\services\UrlService.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyUrlService.Tests", "TinyUrlService.Tests\TinyUrlService.Tests.csproj", "{292E1DBC-E6CE-4574-9264-F14D1DC68246}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{3AA20A0D-3427-4758-9A8A-9E0EB1E8628A}"
+	ProjectSection(SolutionItems) = preProject
+		tinyurl-ui\src\components\UrlShortener.js = tinyurl-ui\src\components\UrlShortener.js
+		tinyurl-ui\src\components\Statistics.js = tinyurl-ui\src\components\Statistics.js
+		tinyurl-ui\src\components\DeleteShortUrlButton.js = tinyurl-ui\src\components\DeleteShortUrlButton.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A64BC79A-A65F-47FE-BAC0-A309BEDCCCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64BC79A-A65F-47FE-BAC0-A309BEDCCCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64BC79A-A65F-47FE-BAC0-A309BEDCCCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64BC79A-A65F-47FE-BAC0-A309BEDCCCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9509F81E-FED4-4A80-843D-EA486481AD45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9509F81E-FED4-4A80-843D-EA486481AD45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9509F81E-FED4-4A80-843D-EA486481AD45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9509F81E-FED4-4A80-843D-EA486481AD45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292E1DBC-E6CE-4574-9264-F14D1DC68246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292E1DBC-E6CE-4574-9264-F14D1DC68246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292E1DBC-E6CE-4574-9264-F14D1DC68246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292E1DBC-E6CE-4574-9264-F14D1DC68246}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {793010C8-8826-48F3-A889-A12905EFA420}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDFCBED9-CC24-4421-AFDC-11457744AC25} = {8E568F0E-4DFD-40D6-9DF5-401539280658}
+		{870296D9-4BAD-4809-8A46-DA33976C381C} = {EDFCBED9-CC24-4421-AFDC-11457744AC25}
+		{3AA20A0D-3427-4758-9A8A-9E0EB1E8628A} = {EDFCBED9-CC24-4421-AFDC-11457744AC25}
+	EndGlobalSection
+EndGlobal
